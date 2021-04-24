@@ -1,0 +1,280 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+    
+}
+#navbar #ul2{
+    position: absolute;
+    right: 0px;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position:absolute;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+#logo
+{
+    margin: 10px 34px;
+    margin-right: 2px;
+}
+#logo > img{
+    margin: 3px 6px;
+    width: 47px;
+    height: 41px;
+    /* filter: invert(100%); */
+}
+ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ul li{
+    list-style: none;
+    
+}
+ul li a{
+    text-decoration: none;
+    padding: 3px 30px;
+    font-size: 1.3rem;
+    color: white;
+    border-radius: 20px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#navbar ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: burlywood; */
+    height: 488px;
+    padding: 10px 200px;
+}
+.section2::before{
+    content: "";
+    position: absolute;
+    background: url('images/food.jpg') no-repeat center center/cover ;
+    height: 500px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.90;
+}
+.section2 h1{
+    color: rgb(7, 247, 99);
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+    margin: 14px;
+    margin-top: -105px;
+    font-size: 3rem;
+    
+}
+.section2 p{
+    color: rgb(250, 245, 250);
+    margin: 6px;
+    font-size: 1.3rem;
+    font-family: 'Lobster Two', cursive;
+}
+.btn{
+    padding: 3px 6px;
+    margin: 15px;
+    background-color: brown;
+    color: white;
+    border: 2px solid white;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.btn:hover{
+    width: 120px;
+    color: black;
+    background-color: rgb(255, 115, 0);
+}
+.container{
+    display: flex;
+    
+}
+.section3{
+    
+    
+    height: 574px;
+    flex-wrap: wrap;
+}
+.section3 h1{
+    text-align: center;
+    margin-top: -79px;
+    padding-top: 22px;
+    padding-bottom: 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+}
+.box{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin-top: 10px;
+    margin: 15px;
+    background-color: #faf5ec;
+    border-radius: 18px;
+}
+.box img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+    
+}
+.box h2{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.box p{
+    text-align: center;
+    margin: 15px 10px;
+    font-family: 'Lobster Two', cursive;
+}
+.section4{
+    border: 2px solid black;
+    width: 100%;
+    height: 1017px;
+    background: url('images/bg_food.jpg') no-repeat center center/cover;
+    opacity: 0.90;
+}
+.section4 h1{
+    font-family:'Baloo Bhai 2', cursive;
+    text-align: center;
+    color: white;
+    font-size: 2.6rem;
+    margin-top: 19px;
+    margin-bottom: -7px;
+    
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    margin: 0px 20px;
+    
+}
+.container2 .box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(196, 248, 7);
+    font-family: 'Baloo Bhai 2', cursive;
+    
+}
+.box2 h2{
+    margin-bottom: 0px;
+    margin-top: 5px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.box2 h1{
+    margin-top: -16px;
+    font-size: 1.7rem;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.box2 img{
+    width: 295px;
+    height: 278px;
+    margin: 25px;
+    margin-top: 20px;
+    
+}
+.section5{
+    
+    position: relative;
+    
+    top: 50px;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 306px;
+}
+.section5 .detail{
+    color: black
+}
+.box3{
+    
+    padding: 2px 82px;
+    display: flex;
+    flex-direction: column;
+}
+.box3 span{
+    color: gray;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+.sec5-box{
+    display: flex;
+    justify-content: center;
+    
+}
+.b3-ul{
+    display: flex;
+    
+    flex-direction: column;
+    list-style: none;
+}
+.b3-ul li{
+    font-size: 17px;
+    margin-top: 15px;
+    font-weight:300;
+    
+}
+
+.b3-ul li a{
+    color: black;
+    text-decoration: none;
+}
+.b3-ul li:hover{
+    font-size:17.5px;
+}
+
+.box3 a{
+    margin-top: 10px;
+}
+
+
+
+@media screen and (max-width:768px)
+{#navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.container{
+    display: flex;
+flex-direction: column;
+}
+.section2 h1{
+    font-size: 0.8rem;
+}
+.section2 p{
+    font-size: 0.5rem;
+}  
+}
